@@ -186,7 +186,7 @@ async def something():
                 aa = kk.split(".")[-1]
                 newFile = dl.replace(f"downloads/", "").replace(f"_", " ")
                 rr = "encode"
-                bb = kk.replace(f".{aa}", ".mkv")
+                bb = kk.replace(f".{aa}", "[HEVC].mkv")
                 out = f"{rr}/{bb}"
                 thum = "thumb.jpg"
                 dtime = ts(int((es - s).seconds) * 1000)
